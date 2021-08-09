@@ -4,6 +4,7 @@ import Head from 'next/head'
 const Meta = ({ title, keywords, description }) => {
     return (
         <Head>
+            <title>{title}</title>
             <meta name='viewport' content='width=device-width, initial-scale=1' />
             <meta name='keywords' content={keywords} />
             <meta name='description' content={description} />
@@ -11,7 +12,6 @@ const Meta = ({ title, keywords, description }) => {
             <meta name='title' content={title} />
             <link rel='icon' href='/favicon.ico' />
 
-            <title>{title}</title>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
             <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"/>
@@ -22,7 +22,7 @@ const Meta = ({ title, keywords, description }) => {
 }
 Meta.defaultProps = {
     title: 'Collen Maphike',
-    keywords: 'Junior Software Developer, Programmer, Full stack developer, Front End Developer, Back End Developer, Team worker',
+    keywords: 'Junior Software Developer, Programmer, Full stack developer, Front End Developer, Back End Developer, Team worker, Collen Lindile Maphike, Mavetane, Veties',
     description: 'A goal driven software developer who is always in search of knowledge, reliable and ensures that he delivers on what was promised.An open communicator that is not afraid to question and advise where appropriate.'
 }
 
