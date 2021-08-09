@@ -4,6 +4,7 @@ import Head from 'next/head'
 const Meta = ({ title, keywords, description }) => {
     return (
         <Head>
+            <meta name="google-site-verification" content="venaSTiqhtGmPcqwipVTb5Sz1ooTUf4-tr39ZkjjpCo" />
             <title>{title}</title>
             <meta name='viewport' content='width=device-width, initial-scale=1' />
             <meta name='keywords' content={keywords} />
@@ -11,10 +12,9 @@ const Meta = ({ title, keywords, description }) => {
             <meta charSet='utf-8' />
             <meta name='title' content={title} />
             <link rel='icon' href='/favicon.ico' />
-
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-            <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet" />
             <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet" />
 
         </Head>
