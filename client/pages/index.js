@@ -1,5 +1,9 @@
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
 import homeStyles from '../styles/Home.module.css';
 import { useState, useEffect } from 'react';
+import Slider from '../components/Slider';
 
 const headerImage = "/images/image1.jpg"
 
@@ -19,14 +23,15 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover"
         }}>
-        <div className={homeStyles.headstart}>
+            <Slider />
+        {/* <div className={homeStyles.headstart}>
           <label>
             YOUR HEADSTART TO
           </label><br />
           <span>
             KNOWING COLLEN
           </span>
-        </div>
+        </div> */}
       </div>
       <div className={homeStyles.intro}>
         <h2>Brief Intro</h2>

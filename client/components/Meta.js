@@ -11,7 +11,7 @@ const Meta = ({ title, keywords, description }) => {
             <meta name='description' content={description} />
             <meta charSet='utf-8' />
             <meta name='title' content={title} />
-            <link rel='icon' href='/favicon.ico' />
+            <link rel='icon' href='/images/logo2.jpg' />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
             <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet" />
