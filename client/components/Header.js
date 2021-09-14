@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div>
             <h1 className={headerStyles.title}>
-            <span>COLLEN'S WEBSITE</span>
+            <span>COLLEN MAPHIKE</span>
             </h1>
         </div>
     )
